@@ -11,8 +11,8 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <SEO title={globalData.name} description={globalData.blogTitle} />
-      <Header name=Regenerate Media />
+      <SEO title={globalData.name} description='Regenerate Media' />
+      <Header name='Regenerate Media' />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           {globalData.blogTitle}
