@@ -7,7 +7,7 @@ export const getGlobalData = () => {
     : 'technology, education & culture';
   const footerText = process.env.BLOG_FOOTER_TEXT
     ? decodeURI(process.env.BLOG_FOOTER_TEXT)
-    : 'Rgenerate Media.';
+    : 'Regenerate Media.';
 
   return {
     name,
