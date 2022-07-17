@@ -15,8 +15,9 @@ export default function Index({ posts, globalData }) {
       <Header name='Regenerate Media' />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          {globalData.blogTitle}
+          'Regenerate Blog'
         </h1>
+        <small>Technology, Education and Culture<small/>
         <ul className="w-full">
           {posts.map((post) => (
             <li
@@ -46,7 +47,7 @@ export default function Index({ posts, globalData }) {
           ))}
         </ul>
       </main>
-      <Footer copyrightText={globalData.footerText} />
+      <Footer copyrightText='&copy; 2022 Regenerate Media' />
       <GradientBackground
         variant="large"
         className="fixed top-20 opacity-40 dark:opacity-60"
