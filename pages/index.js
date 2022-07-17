@@ -15,11 +15,8 @@ export default function Index({ posts, globalData }) {
       <Header name='Regenerate Media' />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          'Regenerate Blog'
+          {globalData.blogTitle}
         </h1>
-        <small className="text-3xl lg:text-5xl text-center mb-12">
-          'education, technology and culture'
-        </small>
         <ul className="w-full">
           {posts.map((post) => (
             <li
