@@ -17,7 +17,7 @@ export default function Index({ posts, globalData }) {
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
           'Regenerate Blog'
         </h1>
-        <small>Technology, Education and Culture<small/>
+        <small>'Technology, Education and Culture'<small/>
         <ul className="w-full">
           {posts.map((post) => (
             <li
